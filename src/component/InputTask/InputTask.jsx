@@ -43,7 +43,6 @@ const InputTask = () => {
       });
     });
     localStorage.setItem("Todo", JSON.stringify(todo));
-    console.log(tos);
   };
   const editTime = (e) => {
     setEdit(e.target.value);
