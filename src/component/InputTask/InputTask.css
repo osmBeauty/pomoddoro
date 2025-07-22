@@ -59,7 +59,53 @@
 .EditForm{
     margin: auto;
 }
+
+.delbutton{
+    width: 80px;
+}
+
 .stopwatch{
     margin: 0;
+    padding-top: 10px;
     width: 25%;
+    text-align: end;
+}
+
+.btn-group{
+    width: 390px;
+    height: 70px;
+    color: #4f5473;
+    background-color: #191d3b;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.btn_active {
+    background-color: #D4636B;
+    border: 0px;
+    padding-inline: 40px;
+    border-radius: 40px;
+    color: #1E2145;
+    padding-block: 10px;
+}
+.btn_active:hover{
+    background-color: #ce6970;
+    border: 0px;
+    padding-inline: 40px;
+    border-radius: 40px;
+    color: #1E2145;
+    padding-block: 10px;
+}
+
+.btns {
+    background-color: transparent;
+    border: 0px;
+    padding-inline: 40px;
+    border-radius: 40px;
+    color: #4f5473;
+    padding-block: 10px;
+}
+
+.btns:hover{
+    background-color:  #1E2145;
 }
